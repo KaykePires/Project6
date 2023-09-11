@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+}
+
+#BackgroundImage{
+    position: absolute;
+    background-size: cover;
+    width: 100vw;
+    height: 400pt;
+}
+
+.Containner{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.Items{
+    display: flex;
+    flex-direction: column;
+    width: 430px;
+
+
+
+}
+
+
+#ImgPrincipal{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+
+.Summary{
+    background-color: white;
+    border-bottom-right-radius:20px;
+    border-bottom-left-radius: 20px;
+    height: 450px;
+}
+
+
+#Summary2{
+    margin-top: 50px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+
+#Text{
+    margin-top: 30px;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    padding-inline: 50px;
+}
+
+
+#Music{
+    height: 45px;
+
+}
+
+
+#Change{
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+    height: 17px;
+    text-align: center;
+}
+
+
+#Change:hover{
+    color: hsla(245, 75%, 52%, 0.603);
+    text-decoration: none;
+}
+
+#Price{
+    color: hsl(224, 23%, 55%);
+}
+
+.Plan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    background-color: hsla(224, 23%, 55%, 0.041);
+    width: 350px;
+    height: 85px;
+    border-radius: 20px;
+    margin-left: 45px;
+
+}
+
+
+.Everthing{
+    display: flex;
+}
+
+.Plan2{
+    padding-right: 90px;
+    padding-left: 20px;
+    line-height: 25px;
+}
+
+
+.Plan4{
+    padding-top: 15px;
+
+}
+
+.Button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 20px;
+    width: 350px;
+    height: 50px;
+    cursor: pointer;
+    margin-left: 45px;
+    box-shadow: 0px 13px 10px  hsla(245, 75%, 52%, 0.342);
+}
+
+#Payment{
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+
+
+}
+
+.Button:hover{
+    background-color: hsla(245, 75%, 52%, 0.603);
+
+
+}
+
+
+#Cancel{
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 14px;
+    color: hsl(224, 23%, 55%);
+    cursor: pointer;
+}
+
+#Cancel:hover{
+    color: black;
+}
